@@ -43,6 +43,9 @@ All general keybindings and commands for the micro-editor apply in this applicat
 • To invoke the Python Shell, type `python` in the shell prompt. To install external libraries, invoke the `pip` console with the command `pipconsole` and type pip commands there (for eg. pip3 install argparse)  
 • To execute a Python script, type `python /path/to/script(.py)` into the shell prompt.  
 
+
+## Notice
+
 *-This application contains portions of the [`micro-editor`](https://github.com/zyedidia/micro) project, [`qpython3`]( https://github.com/qpython-android/qpython3) project and the application [`GCC plugin for C4droid`](https://play.google.com/store/apps/details?id=com.n0n3m4.gcc4droid&hl=en_US&gl=US) and copyrights for all those components remain with their respective authors-*  
 
 Note: This application provides very basic functionality w.r.t GCC and Python. Compatibility of libraries and advanced functionalities of all the components are largely untested.
