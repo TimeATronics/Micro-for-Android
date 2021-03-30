@@ -1,7 +1,8 @@
 # Micro-for-Android
 *-Micro Text Editor for Android-*
 
-#### **Micro-for-Android** is a port of the [`Micro Text Editor`](https://github.com/zyedidia/micro) for Android.
+
+#### **Micro-for-Android** is a port of the [`micro-editor`](https://github.com/zyedidia/micro) for Android.
 This application is available in three variants:
 > 1. Containing only the text editor.
 > 2. Containing the text editor and the `GNU Compiler Collection (GCC v10.2.0)`.
@@ -24,3 +25,19 @@ Instructions to install the third variant of the application, i.e. the one conta
 #### ***Note:***
 ***• Do not rename the folder named Micro before installing the application. You can delete the `/sdcard/Micro` folder after launching the app for the first time.***
 ***• For best experience, in the `Preferences` menu of the application, increase the `Font size` to at least `14`, check the options to `Send mouse events` and to `Close window on exit`. You can also change the `Terminal type` to `screen-256color` for better color support.***
+
+## Usage
+
+All general keybindings and commands for the micro-editor apply in this application too. Some useful keybindings are given below:
+> • Ctrl + q - Exit the editor window
+> • Ctrl + e - Run micro-editor's commands
+> • Ctrl + b - Run commands in the Android shell
+
+**Note:**
+• The best method to access the Android shell through this application is using the `Ctrl + b` keybinding and typing `sh`.
+• All GCC & Python tools can be invoked from the shell.
+• All GCC tools are present in the `$HOME/portable` folder in the form of executable shell scripts (Note that the `gcc` command is not valid in this application; use `cc` instead.)
+
+*-This application contains portions of the [`micro-editor`](https://github.com/zyedidia/micro) project, [`qpython3`]( https://github.com/qpython-android/qpython3) project and the application [`GCC plugin for C4droid`](https://play.google.com/store/apps/details?id=com.n0n3m4.gcc4droid&hl=en_US&gl=US) and copyrights for all those components remain with the respective authors-*
+
+Note: This application provides very basic functionality w.r.t GCC and Python. Compatibility of libraries and advanced functionalities of all the components are largely untested.
