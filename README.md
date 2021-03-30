@@ -4,9 +4,9 @@
 
 #### **Micro-for-Android** is a port of the [`micro-editor`](https://github.com/zyedidia/micro) for Android.
 This application is available in three variants:
-> 1. Containing only the text editor.
-> 2. Containing the text editor and the `GNU Compiler Collection (GCC v10.2.0)`.
-> 3. Containing the text editor, `GCC v10.2.0` and `Python v3.6.6`.
+> 1. Containing only the text editor.  
+> 2. Containing the text editor and the `GNU Compiler Collection (GCC v10.2.0)`.  
+> 3. Containing the text editor, `GCC v10.2.0` and `Python v3.6.6`.  
 
 ## How does it work ?
 
@@ -17,9 +17,9 @@ This application is available in three variants:
 
 Instructions to install all variants of the application are similar and are given below.
 
-> 1. Unzip the archive provided in the Releases section and copy the folder inside (named `Micro`) to the `/sdcard/` location.
-> 2. Install the `.apk` file inside the `Micro` folder.
-> 3. Launch the application, provide the permissions required and let it set up the environment. After the setup, the Micro Text Editor Window shows up.
+> 1. Unzip the archive provided in the Releases section and copy the folder inside (named `Micro`) to the `/sdcard/` location.  
+> 2. Install the `.apk` file inside the `Micro` folder.  
+> 3. Launch the application, provide the permissions required and let it set up the environment. After the setup, the Micro Text Editor Window shows up.  
 >
 
 #### ***Note:***  
@@ -29,9 +29,9 @@ Instructions to install all variants of the application are similar and are give
 ## Usage
 
 All general keybindings and commands for the micro-editor apply in this application too. Some useful keybindings are given below:  
-> • Ctrl + q - Exit the editor window
-> • Ctrl + e - Run micro-editor's commands
-> • Ctrl + b - Run commands in the Android shell
+> • Ctrl + q - Exit the editor window  
+> • Ctrl + e - Run micro-editor's commands  
+> • Ctrl + b - Run commands in the Android shell  
 
 **Note:**
 • The best method to access the Android shell through this application is using the `Ctrl + b` keybinding and typing `sh`.  
