@@ -21,10 +21,12 @@ Instructions to install all variants of the application are similar and are give
 > 2. Install the `.apk` file inside the `Micro` folder.  
 > 3. Launch the application, provide the permissions required and let it set up the environment. After the setup, the Micro Text Editor Window shows up.  
 >
+**Note: with Micro-for-Android v2, there is only one variant, i.e. the one containing both GCC and Python. Also, version 2 is based on [`Terminal Emulator for Android`](https://github.com/jackpal/Android-Terminal-Emulator); so, installation of Terminal Emulator for Android again separately would overwrite the current installation of Micro-for-Android v2.**  
 
 #### ***Note:***  
 ***• Do not rename the folder named Micro before installing the application. You can delete the `/sdcard/Micro` folder after launching the app for the first time.***  
 ***• For best experience, in the `Preferences` menu of the application, increase the `Font size` to at least `14`, check the options to `Send mouse events` and to `Close window on exit`. You can also change the `Terminal type` to `screen-256color` for better color support.***  
+***• With Micro-for-Android v2, after exiting the micro-editor window through the keybinding `Ctrl + q`, type exit to exit the terminal windows. Further, note that the stdout buffer tends to not clear after exiting micro, so try to clear the terminal screen whenever in use.***  
 
 ## Usage
 
