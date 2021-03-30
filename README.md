@@ -11,7 +11,7 @@ This application is available in three variants:
 ## How does it work ?
 
 • This application contains a `Shell Script` embedded into a stripped-down version of [`Terminal Emulator for Android`](https://github.com/jackpal/Android-Terminal-Emulator) which is executed at runtime.  
-• The shell script copies all required files from the internal storage and sets up the environment.  
+• The shell script copies all required files from the internal storage and sets up the environment during first launch.  
 
 ## Installation
 
