@@ -15,7 +15,7 @@ This application is available in three variants:
 
 ## Installation
 
-Instructions to install the third variant of the application, i.e. the one containing GCC and Python along Micro are given below. The installation procedure for the rest of the variants are also similar.
+Instructions to install all variants of the application are similar and are given below.
 
 > 1. Unzip the archive provided in the Releases section and copy the folder inside (named `Micro`) to the `/sdcard/` location.
 > 2. Install the `.apk` file inside the `Micro` folder.
