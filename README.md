@@ -17,7 +17,7 @@ This application is available in three variants:
 
 Instructions to install all variants of the application are similar and are given below.
 
-> 1. Unzip the archive provided in the Releases section and copy the folder inside (named `Micro`) to the `/sdcard/` location.  
+> 1. Unzip the archive provided in the [`Releases`](https://github.com/TimeATronics/Micro-for-Android/releases/tag/1.0) section and copy the folder inside (named `Micro`) to the `/sdcard/` location.  
 > 2. Install the `.apk` file inside the `Micro` folder.  
 > 3. Launch the application, provide the permissions required and let it set up the environment. After the setup, the Micro Text Editor Window shows up.  
 >
