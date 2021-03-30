@@ -33,7 +33,7 @@ All general keybindings and commands for the micro-editor apply in this applicat
 > • Ctrl + e - Run micro-editor's commands  
 > • Ctrl + b - Run commands in the Android shell  
 
-**Note:**
+**Note:**  
 • The best method to access the Android shell through this application is using the `Ctrl + b` keybinding and typing `sh`.  
 • All GCC & Python tools can be invoked from the shell.  
 • All GCC tools are present in the `$HOME/portable` folder in the form of executable shell scripts (Note that the `gcc` command is not valid in this application; use `cc` instead.)  
