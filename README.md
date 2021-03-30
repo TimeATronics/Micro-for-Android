@@ -37,7 +37,12 @@ All general keybindings and commands for the micro-editor apply in this applicat
 • The best method to access the Android shell through this application is using the `Ctrl + b` keybinding and typing `sh`.
 • All GCC & Python tools can be invoked from the shell.
 • All GCC tools are present in the `$HOME/portable` folder in the form of executable shell scripts (Note that the `gcc` command is not valid in this application; use `cc` instead.)
+• Read the shell scripts `cc` and `g++` to know more about the argumemts passed to gcc and g++ by default (-Os -s -fPIE -pie).
+• Core utilities are provided from the `/system/bin` folder and the `busybox` utility provided inside $HOME.
+• All Python tools are present inside the `$HOME/py/files/bin` folder.
+• To invoke the Python Shell, type `python` in the shell prompt. To install external libraries, invoke the `pip` console with the command `pipconsole` and type pip commands there (for eg. pip3 install argparse)
+• To execute a Python script, type `python /path/to/script(.py)` into the shell prompt.
 
-*-This application contains portions of the [`micro-editor`](https://github.com/zyedidia/micro) project, [`qpython3`]( https://github.com/qpython-android/qpython3) project and the application [`GCC plugin for C4droid`](https://play.google.com/store/apps/details?id=com.n0n3m4.gcc4droid&hl=en_US&gl=US) and copyrights for all those components remain with the respective authors-*
+*-This application contains portions of the [`micro-editor`](https://github.com/zyedidia/micro) project, [`qpython3`]( https://github.com/qpython-android/qpython3) project and the application [`GCC plugin for C4droid`](https://play.google.com/store/apps/details?id=com.n0n3m4.gcc4droid&hl=en_US&gl=US) and copyrights for all those components remain with their respective authors-*
 
 Note: This application provides very basic functionality w.r.t GCC and Python. Compatibility of libraries and advanced functionalities of all the components are largely untested.
