@@ -24,7 +24,7 @@ Instructions to install all variants of the application are similar and are give
 >
 **Note: With Micro-for-Android v2, there is only one variant, i.e. the one containing both GCC and Python. Also, version 2 is based on [`Terminal Emulator for Android`](https://github.com/jackpal/Android-Terminal-Emulator); so, installation of Terminal Emulator for Android again separately would overwrite the current installation of Micro-for-Android v2.**  
   
-**Note: With Micro-for-Android v3, there are five variants, first, including only the editor, second, including only GCC with the editor, third, including only Python with the editor, fourth, including the Free Pascal Compiler v3.1.1 and the editor and fifth, including all the components present in the first four variants. The same warnings accompanying version 2 of the application also apply here.  
+**Note: With Micro-for-Android v3, there are five variants, first, including only the editor, second, including only GCC with the editor, third, including only Python with the editor, fourth, including the Free Pascal Compiler v3.1.1 and the editor and fifth, including all the components present in the first four variants. The same warnings accompanying version 2 of the application also apply here.**  
 
 #### ***Note:***  
 ***• Do not rename the folder named Micro before installing the application. You can delete the `/sdcard/Micro` folder after launching the app for the first time.***  
