@@ -7,6 +7,7 @@ This application is available in three variants:
 > 1. Containing only the text editor.  
 > 2. Containing the text editor and the `GNU Compiler Collection (GCC v10.2.0)`.  
 > 3. Containing the text editor, `GCC v10.2.0` and `Python v3.6.6`.  
+> Note: Read Installation notes to know more about changes in v2 & 3.  
 
 ## How does it work ?
 
@@ -21,7 +22,9 @@ Instructions to install all variants of the application are similar and are give
 > 2. Install the `.apk` file inside the `Micro` folder.  
 > 3. Launch the application, provide the permissions required and let it set up the environment. After the setup, the Micro Text Editor Window shows up.  
 >
-**Note: with Micro-for-Android v2, there is only one variant, i.e. the one containing both GCC and Python. Also, version 2 is based on [`Terminal Emulator for Android`](https://github.com/jackpal/Android-Terminal-Emulator); so, installation of Terminal Emulator for Android again separately would overwrite the current installation of Micro-for-Android v2.**  
+**Note: With Micro-for-Android v2, there is only one variant, i.e. the one containing both GCC and Python. Also, version 2 is based on [`Terminal Emulator for Android`](https://github.com/jackpal/Android-Terminal-Emulator); so, installation of Terminal Emulator for Android again separately would overwrite the current installation of Micro-for-Android v2.**  
+  
+**Note: With Micro-for-Android v3, there are five variants, first, including only the editor, second, including only GCC with the editor, third, including only Python with the editor, fourth, including the Free Pascal Compiler v3.1.1 and the editor and fifth, including all the components present in the first four variants. The same warnings accompanying version 2 of the application also apply here.  
 
 #### ***Note:***  
 ***• Do not rename the folder named Micro before installing the application. You can delete the `/sdcard/Micro` folder after launching the app for the first time.***  
@@ -44,10 +47,12 @@ All general keybindings and commands for the micro-editor apply in this applicat
 • All Python tools are present inside the `$HOME/py/files/bin` folder.  
 • To invoke the Python Shell, type `python` in the shell prompt. To install external libraries, invoke the `pip` console with the command `pipconsole` and type pip commands there (for eg. pip3 install argparse)  
 • To execute a Python script, type `python /path/to/script(.py)` into the shell prompt.  
-
+• To invoke the Free Pascal Conpiler, type `fpc` in the shell prompt. Read the shell script named `fpc` inside `$HOME/fpc` to know more about arguments passed to fpc by default.  
 
 ## Notice
 
 *-This application contains portions of the [`micro-editor`](https://github.com/zyedidia/micro) project, [`qpython3`]( https://github.com/qpython-android/qpython3) project and the application [`GCC plugin for C4droid`](https://play.google.com/store/apps/details?id=com.n0n3m4.gcc4droid&hl=en_US&gl=US) and copyrights for all those components remain with their respective authors-*  
 
-Note: This application provides very basic functionality w.r.t GCC and Python. Compatibility of libraries and advanced functionalities of all the components are largely untested.
+Note:  
+This application provides very basic functionality w.r.t GCC and Python. Compatibility of libraries and advanced functionalities of all the components are largely untested.  
+This project was made for solely personal and no commercial use.
